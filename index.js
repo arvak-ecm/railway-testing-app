@@ -8,6 +8,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 
+app.get("/", (req, res) => {
+	res.status(200).send({ message: "Welcome to the API REST" });
+});
+
 app.get('/v1/:id/screen1', (req, res) => {
 	const userId = req.params.id;
 	if (userId === '00126793807') {
