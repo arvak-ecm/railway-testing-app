@@ -56,7 +56,7 @@ const mockupOk = {
 	termDescription: "MESES",
 	product: "65",
 	subProduct: "6521",
-	productDescription
+	productDescription: "CONSUMO N/R T/F",
 	assignedAmmount: "5800000.00",
 	totalAmountProduct: "1376152.0000",
 	listProductsRefinance: [
