@@ -51,7 +51,7 @@ const mockupOk = {
 	queryClassDescription: "RENEG/REFINAN DE CONTRATOS",
 	queryDate: "2023-04-14",
 	situationCode: "529",
-	limitLocalImport: "5800000.00"
+	limitLocalImport: "5800000.00",
 	productTerm: "060",
 	termDescription: "MESES",
 	product: "65",
